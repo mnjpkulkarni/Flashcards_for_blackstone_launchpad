@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mnjpk.flashcards.flashcards.FinanceActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/lawngreen"
+    android:text="Finance"
+    android:textSize="35dp"
+    android:textColor="@color/white"
+    android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            //card 1
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="60dp"
+                android:clickable="true"
+                android:id="@+id/card1"
+                android:orientation="horizontal"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:text="Finance"
+                    android:gravity="bottom"
+                    android:textColor="@color/lawngreen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="60dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal"
+                    android:text="Accounting 101 and the Things Banks Care About"/>
+
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="110dp"
+                    android:id="@+id/time"
+                    android:textColor="@color/aqua"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/aqua" />
+            //card 2
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:text="Finance"
+                    android:gravity="bottom"
+                    android:textColor="@color/lawngreen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="60dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal"
+                    android:text="Venture Capital and Angel Investment"/>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/aqua" />
+
+            //card3
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:text="Finance"
+                    android:gravity="bottom"
+                    android:textColor="@color/lawngreen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="60dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal"
+                    android:text="Business Modeling and the Art of Making Money"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/aqua" />
+
+            //card4
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:text="Finance"
+                    android:gravity="bottom"
+                    android:textColor="@color/lawngreen"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="-350dp"
+                    android:layout_marginTop="30dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal"
+                    android:text="Accounting 101 and the things Banks care about."/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

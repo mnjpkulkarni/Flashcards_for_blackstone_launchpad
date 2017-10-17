@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mnjpk.flashcards.flashcards.FinalActivity"
+    android:background="@color/lawngreen">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="90dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/top_mountain_goal_flag"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="45dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CONGRATULATIONS! You have crushed this deck of cards."
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="460dp"
+    android:layout_marginLeft="30dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Restart"
+        android:background="@color/silver"
+        android:id="@+id/restart"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="190dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="next deck"
+            android:background="@color/silver"
+            android:id="@+id/nextdeck"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

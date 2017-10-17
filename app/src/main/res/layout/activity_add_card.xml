@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mnjpk.flashcards.flashcards.AddCardActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/editword"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:hint="Word">
+        <requestFocus/>
+        </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/editgrammar"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:hint="Grammar">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/editdefinition"
+        android:background="@drawable/shape"
+        android:hint="Definition">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="40dp"
+        android:text="Add"
+        android:textSize="30dp"
+        android:id="@+id/addcardbtn"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="190dp"
+        android:text="cancel"
+        android:textSize="30dp"
+        android:id="@+id/cancelcardbtn"/>
+
+
+</RelativeLayout>

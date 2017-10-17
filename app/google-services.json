@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "367548485508",
+    "firebase_url": "https://flashcards-29f44.firebaseio.com",
+    "project_id": "flashcards-29f44",
+    "storage_bucket": "flashcards-29f44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367548485508:android:8e1b811599ac403f",
+        "android_client_info": {
+          "package_name": "com.mnjpk.flashcards.flashcards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367548485508-ogramdsdipl5cpjdjdtv93q4pvqp3tfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA44VeyPqLtiz0pUrboG2t4MgEQB4ehhw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
